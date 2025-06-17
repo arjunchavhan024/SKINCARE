@@ -6,7 +6,7 @@ const WhyOurProductPage = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div className="space-y-6">
-          <button className="flex items-center gap-2 bg-white border border-gray-300 rounded-full px-4 py-1 text-sm font-medium">
+          <button className="flex items-center cursor-pointer gap-2 bg-[#FEFFF4] border border-gray-300 rounded-full px-4 py-1 text-sm font-medium">
             <span className="w-2 h-2 bg-black rounded-full"></span>
             Why Our Products
           </button>
@@ -70,7 +70,9 @@ const WhyOurProductPage = () => {
             alt="Skincare Model"
             className="rounded-xl w-full object-cover"
           />
-          <div className="absolute bottom-4 left-4 bg-[#ecf4dc] text-gray-800 px-4 py-2 rounded-full flex items-center gap-2 shadow-md text-sm">
+
+          {/* Floating Badge - Adjusted to sit on the image with 60px bottom margin */}
+          <div className="absolute left-4 bottom-[60px] bg-[#ecf4dc] text-gray-800 px-4 py-2 rounded-full flex items-center gap-2 shadow-md text-sm">
             <span className="bg-white p-1 rounded-full border">
               <svg
                 className="w-4 h-4 text-gray-600"
@@ -91,6 +93,8 @@ const WhyOurProductPage = () => {
                 />
               </svg>
             </span>
+
+            {/* Moved on image and spaced 60px from bottom */}
             <div>
               <div className="font-semibold">Best Skin Care Product</div>
               <div className="text-xs">Award Winning</div>

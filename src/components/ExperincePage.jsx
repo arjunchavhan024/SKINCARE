@@ -6,12 +6,8 @@ const ExperiencePage = () => {
       <div className="max-w-3xl mx-auto text-lg leading-relaxed text-gray-900">
         <p className="font-medium">
           Experience the ultimate in skincare with our expertly formulated
-          products, crafted to{" "}
-          <span className="font-semibold">
-            nourish, protect, and rejuvenate your skin
-          </span>
-          . Combining the finest{" "}
-          <span className="font-semibold">natural ingredients</span> with
+          products, crafted to nourish, protect, and rejuvenate your skin .
+          Combining the finest natural ingredients with
           <span className="text-gray-400 font-normal">
             {" "}
             advanced science, our collection ensures every skin type can achieve

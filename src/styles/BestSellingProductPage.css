@@ -1,0 +1,66 @@
+/* BestSellingProductPage.css */
+
+.product-carousel {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+}
+
+/* Hide scrollbar on WebKit (Chrome, Safari) */
+.product-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar on Firefox */
+.product-carousel {
+  scrollbar-width: none;
+}
+
+/* Responsive Product Cards */
+.product-card {
+  background-color: white;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 260px;
+}
+
+@media (min-width: 1024px) {
+  .product-carousel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: visible;
+  }
+
+  .product-card {
+    width: auto;
+  }
+}
+
+/* Arrow Buttons */
+.arrow-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  transition: background-color 0.2s ease;
+}
+
+.arrow-button.filled {
+  background-color: #1b2b23;
+  color: white;
+  border: none;
+}
+
+.arrow-button.filled:hover {
+  background-color: #0f1d17;
+}
+
+.arrow-button:hover {
+  background-color: #f0f0f0;
+}

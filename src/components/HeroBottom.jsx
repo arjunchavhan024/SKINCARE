@@ -3,14 +3,12 @@ import React from "react";
 const HeroBottom = () => {
   return (
     <section className="relative bg-[#EFF5E1] px-4 py-16 flex flex-col items-center justify-center overflow-hidden">
-      {/* Background SKINCARE Text */}
       <h1 className="absolute bottom-0 text-[120px] md:text-[180px] font-extrabold text-black tracking-widest pointer-events-none select-none">
         SKINCARE
       </h1>
 
-      {/* Shop Now Button */}
       <div className="mb-6">
-        <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition">
+        <button className="bg-black text-white cursor-pointer px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition">
           Shop Now
         </button>
       </div>

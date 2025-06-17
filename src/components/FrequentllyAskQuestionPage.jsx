@@ -70,7 +70,7 @@ const FrequentlyAskQuestionPage = () => {
 
         {/* FAQ Section */}
         <div>
-          <button className="flex items-center text-sm border px-4 py-2 rounded-full border-[#2E3D34] text-[#2E3D34] mb-4">
+          <button className="flex cursor-pointer items-center text-sm border px-4 py-2 rounded-full border-[#2E3D34] text-[#2E3D34] mb-4">
             <span className="h-2 w-2 bg-[#2E3D34] rounded-full mr-2"></span>
             Frequently Asked Question
           </button>
