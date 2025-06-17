@@ -4,7 +4,7 @@ const HeroBottom = () => {
   return (
     <section className="relative bg-[#EFF5E1] px-4 py-16 flex flex-col items-center justify-center overflow-hidden">
       {/* Background SKINCARE Text */}
-      <h1 className="absolute bottom-0 text-[120px] md:text-[180px] font-extrabold text-gray-900 opacity-10 tracking-widest pointer-events-none select-none">
+      <h1 className="absolute bottom-0 text-[120px] md:text-[180px] font-extrabold text-black tracking-widest pointer-events-none select-none">
         SKINCARE
       </h1>
 
