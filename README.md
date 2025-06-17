@@ -1,2 +1,1 @@
-# SKINCARE
-New Web
+# SkinCare
